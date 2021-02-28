@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="slider_heigh">180dp</dimen>
+    <dimen name="twenty">20dp</dimen>
+    <dimen name="maintainer_h">500dp</dimen>
+    <dimen name="fifty">50dp</dimen>
+</resources>
