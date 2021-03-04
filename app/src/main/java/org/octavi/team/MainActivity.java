@@ -47,16 +47,46 @@ public class MainActivity extends AppCompatActivity {
 
     // MAINTAINERS INFO
     static {
-        // FIXME: 2/28/2021 ADD INFO
-        //maintainersList.add(new MaintainersList("", 0, ""));
+        maintainersList.add(new MaintainersList("Sagar Rokade", R.drawable.sagar, "Realme XT"));
+        maintainersList.add(new MaintainersList("Rahul Mishra", R.drawable.rahul, "Redmi Note 5 Pro"));
+        maintainersList.add(new MaintainersList("Satyam", R.drawable.satyam, "Redmi Note 4"));
+        maintainersList.add(new MaintainersList("IronGfly", R.drawable.iron, "Xiaomi K20 Pro"));
+        maintainersList.add(new MaintainersList("MarvelMathesh", R.drawable.land_maintainer, "Redmi 3S Prime"));
+        maintainersList.add(new MaintainersList("Pro Noob", R.drawable.pronoob, "Realme 1"));
+        maintainersList.add(new MaintainersList("Karthik", R.drawable.violet_maintainer, "Redmi Note 7 Pro"));
+        maintainersList.add(new MaintainersList("Chiru", R.drawable.phoenix_maintainer, "Poco X2"));
+        maintainersList.add(new MaintainersList("Kunmun", R.drawable.x01bd_maintainer, "Asus Zenfone Max Pro M2"));
+        maintainersList.add(new MaintainersList("Rucio", R.drawable.berrlium_maintainer, "Poco F1"));
+        maintainersList.add(new MaintainersList("Spkal01", R.drawable.davinci_maintainer, "Xiaomi K30"));
+        maintainersList.add(new MaintainersList("Ritwik", 0, "Xiaomi Mi A2"));
+        maintainersList.add(new MaintainersList("Chris", 0, "Redmi Note 7"));
+        maintainersList.add(new MaintainersList("Cris", 0, "Leeco Le Max 2"));
+        maintainersList.add(new MaintainersList("Tushar", R.drawable.tushar, "Redmi Y2"));
+        maintainersList.add(new MaintainersList("Tushar", R.drawable.tushar, "Poco X3"));
+        maintainersList.add(new MaintainersList("Ayan", 0, "Asus Zenfone 5z"));
+        maintainersList.add(new MaintainersList("Sanyam Taneja", R.drawable.sanyam, "Realme X"));
+        maintainersList.add(new MaintainersList("Priyanshu", 0, "Xiaomi Mi10i"));
+        maintainersList.add(new MaintainersList("Reharsh", 0, "Xiaomi Mi A1"));
+        maintainersList.add(new MaintainersList("Srinand", R.drawable.vince_maintainer, "Redmi Note 5"));
+        maintainersList.add(new MaintainersList("mrjarvis", 0, "Miatoll"));
+        maintainersList.add(new MaintainersList("Mayur", R.drawable.mayur, "Moto G5S plus"));
+        maintainersList.add(new MaintainersList("Git Daisy", 0, "Xiaomi Mi A2_lite"));
+        maintainersList.add(new MaintainersList("Ashutosh", 0, "Realme 6"));
+        maintainersList.add(new MaintainersList("Christian", R.drawable.christian, "Xiaomi 6X"));
+        maintainersList.add(new MaintainersList("NextWorks", 0, "Redni Note 8 Pro"));
+        maintainersList.add(new MaintainersList("Waynee", 0, "Redmi Note 6"));
+        maintainersList.add(new MaintainersList("Kyvangka", 0, "Redmi Note 8"));
+        maintainersList.add(new MaintainersList("Royals", R.drawable.royal, "Oneplus 3/3T"));
     }
 
     //CORE TEAM
     static {
         coreTeamList.add(new CoreTeamList("Sagar Rokade", "Core Developer", "Just a beginner in android journey.", R.drawable.sagar));
-        coreTeamList.add(new CoreTeamList("Rahul Mishra", "Core Developer & UX Designer", "Another random guy trying to learn some stuff and gain some skills.", R.drawable.rahul));
-        coreTeamList.add(new CoreTeamList("Satyam Sharma", "Core Developer & UX Designer", "\"The future belongs to those who believe in the beauty of their dreams.\"", R.drawable.satyam));
+        coreTeamList.add(new CoreTeamList("Rahul Mishra", "Core Dev & UI Designer", "Another random guy trying to learn some stuff and gain some skills.", R.drawable.rahul));
+        coreTeamList.add(new CoreTeamList("Satyam Sharma", "Core Dev & UI Designer", "\"The future belongs to those who believe in the beauty of their dreams.\"", R.drawable.satyam));
         coreTeamList.add(new CoreTeamList("Aurelein Dispenza", "Team Manager", "I love to help everyone & I like snakes!", R.drawable.billou));
+        coreTeamList.add(new CoreTeamList("overclockedboi", "Graphic/Web Designer", "Be calm be cool design is a thing that looks kool", R.drawable.overclocked));
+        coreTeamList.add(new CoreTeamList("Sukeerat Singh", "Server manager", "A small guy with a big bang", R.drawable.sukeerat));
         //coreTeamList.add(new CoreTeamList("Rodolphe", "Theme Advisor", "", R.drawable.spider));
     }
 
